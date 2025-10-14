@@ -402,16 +402,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-<div align="center">
-
-### ⭐ If you found this project helpful, please give it a star!
-
-**Built with ❤️ for Cybersecurity and Machine Learning**
-
-[Report Bug](https://github.com/yourusername/network-intrusion-detection/issues) · [Request Feature](https://github.com/yourusername/network-intrusion-detection/issues)
-
-</div>
-
 ## 🏗️ Architecture
 
 ```
