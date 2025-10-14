@@ -1,0 +1,11 @@
+# Track all pickle files with Git LFS
+*.pkl filter=lfs diff=lfs merge=lfs -text
+
+# Track HDF5 model files
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
+
+# Track other model formats
+*.json filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
