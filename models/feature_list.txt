@@ -1,0 +1,37 @@
+Required Features for Model Prediction
+==================================================
+
+ 1. duration
+ 2. protocol_type
+ 3. service
+ 4. flag
+ 5. src_bytes
+ 6. dst_bytes
+ 7. land
+ 8. wrong_fragment
+ 9. urgent
+10. hot
+11. num_failed_logins
+12. logged_in
+13. num_compromised
+14. root_shell
+15. su_attempted
+16. num_file_creations
+17. num_shells
+18. num_access_files
+19. is_host_login
+20. is_guest_login
+21. count
+22. srv_count
+23. serror_rate
+24. rerror_rate
+25. same_srv_rate
+26. diff_srv_rate
+27. srv_diff_host_rate
+28. dst_host_count
+29. dst_host_srv_count
+30. dst_host_same_srv_rate
+31. dst_host_diff_srv_rate
+32. dst_host_same_src_port_rate
+33. dst_host_srv_diff_host_rate
+34. dst_host_rerror_rate

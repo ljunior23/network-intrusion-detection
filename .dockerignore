@@ -1,0 +1,63 @@
+# Git
+.git
+.gitignore
+.github
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Large data files (should be downloaded at runtime or mounted)
+data/raw/*.csv
+data/raw/*.txt
+data/processed/*.csv
+data/processed/*.npy
+
+# Cache
+.cache/
+*.cache
+
+# Documentation (not needed in container)
+README.md
+QUICKSTART.md
+*.md
+
+# Output files (generated at runtime)
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/reports/*.pdf
+
+# Test files
+tests/
+*.test.py
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml

@@ -1,0 +1,31 @@
+{
+    "dataset_source": "Hugging Face: Mireu-Lab/NSL-KDD",
+    "training_samples": 151165,
+    "test_samples": 34394,
+    "features": 41,
+    "models": {
+        "random_forest": {
+            "accuracy": 0.690643716927371,
+            "auc": 0.9426541725442668,
+            "precision": 0.9565384320049144,
+            "recall": 0.5528826949536194,
+            "f1_score": 0.7007369072396917
+        },
+        "xgboost": {
+            "accuracy": 0.7455660871082166,
+            "auc": 0.9470379123385456,
+            "precision": 0.9614869390488948,
+            "recall": 0.6371221872087346,
+            "f1_score": 0.7663970529350524
+        },
+        "neural_network": {
+            "accuracy": 0.7027969994766529,
+            "auc": 0.9180901705040945,
+            "precision": 0.9643854221685656,
+            "recall": 0.5672628822511206,
+            "f1_score": 0.7143416051866756
+        }
+    },
+    "best_model": "XGBoost",
+    "timestamp": "2025-10-13T20:40:44.799689"
+}
