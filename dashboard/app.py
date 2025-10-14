@@ -397,7 +397,7 @@ def main():
                         color_discrete_sequence=px.colors.sequential.RdBu,
                         hole=0.3)
             fig.update_layout(height=400)
-            st.plotly_chart(fig, width='stretch')
+            st.plotly_chart(fig, use_container_width=True)
         
         with col2:
             st.subheader("Detection Trend (Last 7 Days)")
@@ -417,7 +417,7 @@ def main():
                                     mode='lines+markers', name='Threats',
                                     line=dict(color='red', width=3)))
             fig.update_layout(hovermode='x unified', height=400)
-            st.plotly_chart(fig, width='stretch')
+            st.plotly_chart(fig, use_container_width=True)
         
         st.markdown("---")
         
@@ -465,7 +465,7 @@ def main():
             height=500
         )
         
-        st.plotly_chart(fig, width='stretch')
+        st.plotly_chart(fig, use_container_width=True)
     
     # ========================================================================
     # TAB 4: ABOUT

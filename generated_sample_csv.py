@@ -1,8 +1,3 @@
-"""
-Generate Sample CSV Files for Testing Dashboard
-Run this to create test data you can upload to the dashboard
-"""
-
 import pandas as pd
 import numpy as np
 

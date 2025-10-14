@@ -1,5 +1,4 @@
 import joblib
-import json
 
 print("="*80)
 print("CHECKING MODEL FEATURES")

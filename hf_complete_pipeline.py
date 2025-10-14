@@ -1,16 +1,3 @@
-"""
-Network Intrusion Detection System - Complete Training Pipeline
-Author: Your Name
-Date: 2025
-
-This script implements the complete ML pipeline:
-1. Load data from Hugging Face
-2. Preprocess and engineer features
-3. Train multiple ML models
-4. Evaluate and compare performance
-5. Save models for deployment
-"""
-
 import os
 import json
 import pandas as pd
