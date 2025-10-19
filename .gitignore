@@ -36,10 +36,14 @@ data/processed/*.csv
 *.h5
 *.pkl
 
-# Models (large files)
-models/*.pkl
-models/*.h5
-models/*.joblib
+# Install Git LFS
+git lfs install
+
+# Track model files
+git lfs track "models/*.pkl"
+git lfs track "models/*.h5"
+git lfs track "models/*.joblib"
+
 
 # Keep metadata
 !models/metadata.json
