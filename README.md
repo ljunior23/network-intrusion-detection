@@ -612,7 +612,7 @@ Top 5 most important features:
 
 
 ## 
-## 📧 Contact
+## Contact
 
 **Acheampong** - kwaleon@umich.edu
 
