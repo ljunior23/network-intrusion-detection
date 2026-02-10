@@ -1,4 +1,4 @@
-# 🛡️ Network Intrusion Detection System
+# Network Intrusion Detection System
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.13+-orange.svg)](https://www.tensorflow.org/)
@@ -13,23 +13,23 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This is an end-to-end **Network Intrusion Detection System (NIDS)** that leverages machine learning and deep learning to detect cyber threats in network traffic. The system analyzes 41 network traffic features and classifies connections as normal or malicious with **74.56% accuracy** using ensemble methods.
 
 ### **Key Features**
 
-✅ **Multi-Model Ensemble**: Random Forest, XGBoost, and Neural Networks  
-✅ **Real-time Detection**: Instant threat classification with confidence scores  
-✅ **Interactive Dashboard**: Built with Streamlit for easy visualization  
-✅ **Batch Processing**: Analyze large datasets efficiently  
-✅ **GPU Acceleration**: TensorFlow optimized for NVIDIA GPUs  
-✅ **Docker Ready**: One-command deployment  
-✅ **Production Ready**: Clean code, documentation, and deployment guides  
+ **Multi-Model Ensemble**: Random Forest, XGBoost, and Neural Networks  
+ **Real-time Detection**: Instant threat classification with confidence scores  
+ **Interactive Dashboard**: Built with Streamlit for easy visualization  
+ **Batch Processing**: Analyze large datasets efficiently  
+ **GPU Acceleration**: TensorFlow optimized for NVIDIA GPUs  
+ **Docker Ready**: One-command deployment  
+ **Production Ready**: Clean code, documentation, and deployment guides  
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 | Model | Accuracy | AUC | Precision | Recall | F1-Score |
 |-------|----------|-----|-----------|--------|----------|
@@ -42,7 +42,7 @@ This is an end-to-end **Network Intrusion Detection System (NIDS)** that leverag
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### **Prerequisites**
 
@@ -90,7 +90,7 @@ Access at: **http://localhost:8501**
 
 ---
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 ### **Build and Run**
 
@@ -112,7 +112,7 @@ docker-compose up -d
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 network-intrusion-detection/
@@ -153,7 +153,7 @@ network-intrusion-detection/
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### **1. Real-time Threat Detection**
 
@@ -208,7 +208,7 @@ print(f"Confidence: {probability[0][1]:.2%}")
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### **1. Data Preprocessing**
 
@@ -246,7 +246,7 @@ print(f"Confidence: {probability[0][1]:.2%}")
 
 ---
 
-## 📈 Dataset
+## Dataset
 
 ### **NSL-KDD Dataset**
 
@@ -268,16 +268,16 @@ print(f"Confidence: {probability[0][1]:.2%}")
 
 ---
 
-## 🎓 Key Insights
+## Key Insights
 
 ### **Model Selection Rationale**
 
 Initially explored 6 models:
-1. Logistic Regression (60% acc) - Too simple ❌
-2. Decision Tree (65% acc) - Overfitting issues ❌
-3. Random Forest (69% acc) - Good baseline ✅
-4. XGBoost (75% acc) - Best single model ✅
-5. LightGBM (73% acc) - Similar to XGBoost ❌
+1. Logistic Regression (60% acc) - Too simple 
+2. Decision Tree (65% acc) - Overfitting issues 
+3. Random Forest (69% acc) - Good baseline 
+4. XGBoost (75% acc) - Best single model 
+5. LightGBM (73% acc) - Similar to XGBoost 
 6. Neural Network (70% acc) - Deep learning capability ✅
 
 **Final Selection**: Kept top 3 performers for ensemble
@@ -290,7 +290,7 @@ Initially explored 6 models:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 ### **Planned Enhancements**
 
@@ -327,7 +327,7 @@ Initially explored 6 models:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Machine Learning**:
 - scikit-learn 1.3.0 (Random Forest, preprocessing)
@@ -354,7 +354,7 @@ Initially explored 6 models:
 
 ---
 
-## 📊 Sample Results
+##  Sample Results
 
 ### **Confusion Matrix (XGBoost)**
 
@@ -380,21 +380,13 @@ F1-Score: 0.77
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+##  
 
 
 
-## 🎯 Project Status
+##  Project Status
 
-**Status**: ✅ Complete and Production-Ready
+**Status**:  Complete and Production-Ready
 
 **Current Version**: 1.0.0
 
@@ -402,7 +394,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐
@@ -441,7 +433,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 └─────────────────┘
 ```
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -480,7 +472,7 @@ docker run -p 8501:8501 intrusion-detection
 ```
 
 
-## 💻 Usage
+##  Usage
 
 ### Training Models
 
@@ -527,7 +519,7 @@ print(f"Threat: {'Yes' if prediction[0] else 'No'}")
 print(f"Confidence: {probability[0][1]:.2%}")
 ```
 
-## 📈 Dataset
+##  Dataset
 
 ### NSL-KDD Dataset
 - **Source**: Hugging Face (Mireu-Lab/NSL-KDD)
@@ -545,7 +537,7 @@ print(f"Confidence: {probability[0][1]:.2%}")
 - Error rates
 - And 35+ more network metrics
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 - Categorical encoding (Label Encoding)
@@ -576,7 +568,7 @@ print(f"Confidence: {probability[0][1]:.2%}")
 - Feature importance
 
 
-## 🚀 Deployment Options
+##  Deployment Options
 
 ### Streamlit Cloud
 1. Push to GitHub
@@ -590,7 +582,7 @@ print(f"Confidence: {probability[0][1]:.2%}")
 - Docker container
 - Virtual environment
 
-## 📊 Results & Insights
+##  Results & Insights
 
 ### Key Findings
 1. **Ensemble models** achieve best performance (97.8% accuracy)
@@ -606,7 +598,7 @@ Top 5 most important features:
 4. `src_bytes` - Bytes sent from source
 5. `dst_bytes` - Bytes sent to destination
 
-## 🔄 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real-time PCAP file processing
 - [ ] Live network traffic capture
@@ -619,16 +611,7 @@ Top 5 most important features:
 
 
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+## 
 ## 📧 Contact
 
 **Acheampong** - kwaleon@umich.edu
@@ -637,7 +620,7 @@ Project Link: https://github.com/ljunior23/network-intrusion-detection.git
 
 LinkedIn: https://www.linkedin.com/in/george-acheampong-604a821b5/
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - NSL-KDD dataset from Canadian Institute for Cybersecurity
 - Hugging Face for dataset hosting
