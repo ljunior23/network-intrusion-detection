@@ -278,7 +278,7 @@ Initially explored 6 models:
 3. Random Forest (69% acc) - Good baseline 
 4. XGBoost (75% acc) - Best single model 
 5. LightGBM (73% acc) - Similar to XGBoost 
-6. Neural Network (70% acc) - Deep learning capability ✅
+6. Neural Network (70% acc) - Deep learning capability
 
 **Final Selection**: Kept top 3 performers for ensemble
 
